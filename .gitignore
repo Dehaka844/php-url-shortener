@@ -1,0 +1,11 @@
+# Configuración local y sensible
+#config/database.php
+
+# Archivos del sistema y del IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
