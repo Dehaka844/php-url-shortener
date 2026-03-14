@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acortador de URLs - Profesional</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Acortador de URLs</h1>
+        <p>Transforma tus enlaces largos en códigos cortos y manejables.</p>
+        
+        <form id="shorten-form">
+            <input type="url" id="url-input" placeholder="Pega tu URL larga aquí..." required>
+            <button type="submit">Acortar</button>
+        </form>
+
+        <div id="result-container" class="hidden">
+            <p>¡Tu enlace corto está listo!</p>
+            <div class="result-box">
+                <input type="text" id="short-url-output" readonly>
+                <button id="copy-btn">Copiar</button>
+            </div>
+        </div>
+
+        <div id="error-message" class="error hidden"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
